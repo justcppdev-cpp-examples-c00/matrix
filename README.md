@@ -80,4 +80,6 @@
 1 1 1
 ```
 #### выходные данные
-`An error has occured while reading input data`
+```
+An error has occured while reading input data
+```
