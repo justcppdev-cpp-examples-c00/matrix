@@ -97,6 +97,20 @@ An error has occured while reading input data
 - `T` - транспонирование
 - `R` - нахождение обратной матрицы
 
+### Подсказка
+```
+unsigned int rows = 0;
+unsigned int columns = 0;
+
+float ** matrix = new float *[ rows ];
+for( unsigned int i = 0; i < rows; ++i ) {
+    matrix[ i ] = new float[ columns ];
+    for( unsigned int j = 0; j < columns; ++j ) {
+        matrix[ i ][ j ] = 0.0f;
+    }
+}
+```
+
 ### Входные данные
 Во входных данных заданы строки, следующего формата:
 ```
