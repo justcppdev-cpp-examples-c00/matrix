@@ -115,7 +115,6 @@ An error has occured while reading input data
 <число> <число> <число>
 <число> <число> <число>
 <унарная операция>
-
 ```
 ### Выходные данные
 Результат арифмитической операции или строка `An error has occured while reading input data`, сведетельствующая о возникновении ошибки ввода.
@@ -150,7 +149,6 @@ An error has occured while reading input data
 1 1 1
 1 1 1
 1 1 1
-
 ```
 #### выходные данные
 ```
@@ -169,7 +167,6 @@ An error has occured while reading input data
 1 1 1
 1 1 1
 1 1 1
-
 ```
 #### выходные данные
 ```
