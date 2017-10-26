@@ -154,7 +154,7 @@ void destroy( float ** elements,
     for( unsigned int i = 0; i < rows; ++i ) {
         delete [] elements[ i ];
     }
-    delete [] matrix; 
+    delete [] elements; 
 }
 
 auto create( unsigned int rows,
@@ -165,7 +165,7 @@ auto create( unsigned int rows,
     for( unsigned int i = 0; i < rows; ++i ) {
         elements[ i ] = new float[ columns ];
         for( unsigned int j = 0; j < columns; ++j ) {
-            matrix[ i ][ j ] = filler;
+            elements[ i ][ j ] = filler;
         }
     }
 }
