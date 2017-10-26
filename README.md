@@ -95,7 +95,7 @@ An error has occured while reading input data
 - `-` `// rows1 == rows2 && columns1 == columns2`
 - `*` `// columns1 == rows2`
 - `T` - транспонирование
-- `R` - нахождение обратной матрицы
+- `R` - нахождение обратной матрицы `// rows == columns`
 
 ### Подсказка
 ```
@@ -228,5 +228,5 @@ T
 ```
 #### выходные данные
 ```
-An error has occured while reading input data
+An error has occured while reading input data.
 ```
