@@ -168,6 +168,8 @@ auto create( unsigned int rows,
             elements[ i ][ j ] = filler;
         }
     }
+    
+    return elements;
 }
 
 bool truncate( float ** lhs_elements,
