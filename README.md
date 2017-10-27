@@ -216,7 +216,9 @@ bool reverse( float ** lhs_elements,
 <унарная операция>
 ```
 ### Выходные данные
-Результат арифмитической операции или строка `An error has occured while reading input data`, сведетельствующая о возникновении ошибки ввода.
+Результат арифмитической операции или строка, сведетельствующая о возникновении ошибки:
+- `An error has occured while reading input data`
+- `There is no reverse matrix`
 
 ### Примеры
 #### входные данные
@@ -289,6 +291,18 @@ R
 ```
 #### входные данные
 ```
+3, 3
+1 2 3
+4 5 6
+7 8 9
+R
+```
+#### выходные данные
+```
+There is no reverse matrix
+```
+#### входные данные
+```
 3, 2
 2 2
 2 2
@@ -313,5 +327,5 @@ T
 ```
 #### выходные данные
 ```
-An error has occured while reading input data.
+An error has occured while reading input data
 ```
