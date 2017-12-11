@@ -353,6 +353,9 @@ An error has occured while reading input data
 - `An error has occured while reading input data`
 - `There is no reverse matrix`
 
+### Замечания
+Для работы с файлами необходимо использовать объекты типа `std::ifstream`.
+
 ### Примеры
 ```
 A.txt
